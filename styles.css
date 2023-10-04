@@ -37,7 +37,7 @@ body {
   display: inline-block;
   vertical-align: top;
   position: relative; /* Needed for absolute positioning */
-
+  border-radius: 20px;
   /* Apply the animation */
   animation: circulating-border 5s linear infinite;
 }
@@ -65,6 +65,8 @@ body {
   position: absolute;
   backface-visibility: hidden;
   text-align: center;
+  border: 2px solid black;
+  border-radius: 20px;
 }
 
 /* Customize card front and back styles as needed */
