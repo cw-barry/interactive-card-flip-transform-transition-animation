@@ -41,6 +41,9 @@ body {
   /* Apply the animation */
   animation: circulating-border 5s linear infinite;
 }
+.card:hover {
+  animation: none;
+}
 
 .card-inner {
   width: 100%;
