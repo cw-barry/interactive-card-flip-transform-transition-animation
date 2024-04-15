@@ -25,6 +25,7 @@ body {
 
 /* Card container styles */
 .card-container {
+  margin-top: 20px;
   font-size: 0; /* Remove inline-block's white space issue */
 }
 
@@ -39,7 +40,7 @@ body {
   position: relative; /* Needed for absolute positioning */
   border-radius: 20px;
   /* Apply the animation */
-  animation: circulating-border 5s linear infinite;
+  animation: circulating-border 10s linear infinite;
 }
 .card:hover {
   animation: none;
